@@ -1,12 +1,13 @@
 {
-  "name": "wa-bot-railway",
+  "name": "wa-bot",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.22.1"
+    "puppeteer": "^21.3.8",
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0"
   }
 }
